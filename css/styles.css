@@ -23,6 +23,7 @@ p {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 h1,
@@ -125,7 +126,7 @@ nav {
 }
 
 .auth-nav .contacts + .contacts {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .auth-nav .link:hover,
@@ -149,7 +150,7 @@ nav {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(169, 169, 172, 0.4), rgba(169, 169, 172, 0.4)),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
 }
 
@@ -220,6 +221,7 @@ nav {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .skill-icons {
@@ -299,6 +301,7 @@ nav {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--primary-white-color);
 }
 
 .command:nth-child(4n) {
@@ -440,6 +443,7 @@ footer {
 
 .address > p {
   margin-bottom: 9px;
+  color: var(--primary-white-color);
 }
 
 .mail {
